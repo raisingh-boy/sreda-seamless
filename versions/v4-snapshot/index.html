@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Performance &amp; iPhone · sreda+seamless</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hdr">
+  <span class="hdr-logo">SŘEDA × SEAMLESS</span>
+  <nav class="hdr-nav">
+    <button class="lang-btn" id="langBtn">EN</button>
+    <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- MOBILE MENU -->
+<nav class="mmenu" id="mmenu">
+  <ul>
+    <li><a href="#s1" data-ru="Манифест" data-en="Statement">Манифест</a></li>
+    <li><a href="#s2" data-ru="Андрей Андрияшкин" data-en="Andrey Andriyashkin">Андрей Андрияшкин</a></li>
+    <li><a href="#s3" data-ru="Концепция" data-en="Concept">Концепция</a></li>
+    <li><a href="#s4" data-ru="Екатерина Варнава" data-en="Ekaterina Varnava">Екатерина Варнава</a></li>
+    <li><a href="#s5" data-ru="Билеты" data-en="Tickets">Билеты</a></li>
+    <li><a href="#s6" data-ru="FAQ" data-en="FAQ">FAQ</a></li>
+  </ul>
+</nav>
+
+<!-- 1. HERO — full-bleed video -->
+<section class="s s-hero">
+  <div class="s-hero-bg">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/images/andriyashkin_photo_01.jpg">
+      <source src="assets/images/andriyashkin_01.mp4" type="video/mp4">
+    </video>
+    <div class="s-hero-overlay"></div>
+  </div>
+  <div class="s-hero-content">
+    <p class="s-hero-label" data-ru="7–8 ИЮНЯ · БЕРЛИН" data-en="JUNE 7–8 · BERLIN">7–8 ИЮНЯ · БЕРЛИН</p>
+    <h1 class="s-hero-title">
+      <span class="s-hero-title-line">Performance</span>
+      <span class="s-hero-title-line s-hero-title-line--it">&amp; iPhone</span>
+    </h1>
+    <p class="s-hero-sub" data-ru="Тело как носитель" data-en="The body as a carrier">Тело как носитель</p>
+    <p class="s-hero-desc" data-ru="Двухдневный интенсив contemporary dance и digital-медиа" data-en="A two-day intensive on contemporary dance and digital media">Двухдневный интенсив contemporary dance и digital-медиа</p>
+  </div>
+</section>
+
+<!-- 2. STATEMENT — white section, flush after hero -->
+<section class="s s-white" id="s1">
+  <div class="s-inner">
+    <div class="s-rule"></div>
+    <blockquote class="s-quote">
+      <p data-ru="Тело не просто участвует в танце. Танец случается как событие — и становится документом, который мы носим с собой."
+         data-en="The body doesn't merely participate in dance. Dance happens as an event — and becomes a document we carry with us.">
+        Тело не просто участвует в танце. Танец случается как событие — и становится документом, который мы носим с собой.
+      </p>
+    </blockquote>
+    <p class="s-body" data-ru="Двухдневный интенсив на стыке contemporary dance, импровизации и digital-медиа."
+       data-en="A two-day intensive at the intersection of contemporary dance, improvisation, and digital media.">
+      Двухдневный интенсив на стыке contemporary dance, импровизации и digital-медиа.
+    </p>
+  </div>
+</section>
+
+<!-- 3. TEACHER 1 — black, full-bleed image, 60vh -->
+<section class="s s-dark s-img" id="s2">
+  <img src="assets/images/andriyashkin_photo_01.jpg" alt="">
+  <div class="s-img-cap">
+    <h2 class="s-name" data-ru="Андрей Андрияшкин" data-en="Andrey Andriyashkin">Андрей Андрияшкин</h2>
+    <p class="s-role" data-ru="Исследователь движения" data-en="Movement researcher">Исследователь движения</p>
+  </div>
+</section>
+
+<!-- 4. TEACHER 1 TEXT — white, flush -->
+<section class="s s-white">
+  <div class="s-inner">
+    <p class="s-label">DAY 1 · 7 JUNE</p>
+    <h2 class="s-h2" data-ru="Паркур тела и камера" data-en="Parkour of the body and the camera">Паркур тела и камера</h2>
+    <p class="s-body" data-ru="Класс Андрея — исследование кинестетического поля через паркурные принципы и работу с iPhone. Как камера меняет направление движения? Как тело находит опору в нестабильном?"
+       data-en="Andrey's class explores the kinesthetic field through parkour principles and working with the iPhone. How does the camera change the direction of movement? How does the body find support in the unstable?">
+      Класс Андрея — исследование кинестетического поля через паркурные принципы и работу с iPhone. Как камера меняет направление движения? Как тело находит опору в нестабильном?
+    </p>
+    <button class="trailer-btn" data-video-ru="0-pUiSubwSI" data-video-en="JlVPtblL_2g" data-ru="→ Смотреть трейлер" data-en="→ Watch trailer">→ Смотреть трейлер</button>
+  </div>
+</section>
+
+<!-- 5. TWO-COLUMN GRID — black bg, 1fr 1fr gap 4px -->
+<section class="s s-grid">
+  <div class="s-grid-inner">
+    <img src="assets/images/andriyashkin_photo_02.jpg" alt="" loading="lazy">
+    <video autoplay muted loop playsinline preload="metadata" src="assets/images/varnava_01.mp4"></video>
+  </div>
+</section>
+
+<!-- 6. CONCEPT — white -->
+<section class="s s-white" id="s3">
+  <div class="s-inner">
+    <p class="s-label" data-ru="Концепция" data-en="Concept">Концепция</p>
+    <h2 class="s-h2">
+      <span data-ru="Тело как носитель" data-en="Body as a carrier">Тело как носитель</span>
+      <span class="s-h2-inline"><img src="assets/images/varnava_photo_01.jpg" alt="" class="s-inline-img"></span>
+      <span data-ru="события" data-en="of the event">события</span>
+    </h2>
+    <p class="s-body" data-ru="Движение — первичный язык. iPhone — не экран, а продолжение руки. За два дня — от телесной разминки до хореографических этюдов с камерой."
+       data-en="Movement is the primary language. The iPhone is not a screen, but an extension of the hand. Over two days — from warm-up to choreographic studies with the camera.">
+      Движение — первичный язык. iPhone — не экран, а продолжение руки. За два дня — от телесной разминки до хореографических этюдов с камерой.
+    </p>
+  </div>
+</section>
+
+<!-- 7. TEACHER 2 — black, full-bleed -->
+<section class="s s-dark s-img" id="s4">
+  <img src="assets/images/varnava_photo_01.jpg" alt="">
+  <div class="s-img-cap">
+    <h2 class="s-name" data-ru="Екатерина Варнава" data-en="Ekaterina Varnava">Екатерина Варнава</h2>
+    <p class="s-role" data-ru="Хореограф, перформер" data-en="Choreographer, performer">Хореограф, перформер</p>
+  </div>
+</section>
+
+<!-- 8. TEACHER 2 TEXT — white -->
+<section class="s s-white">
+  <div class="s-inner">
+    <p class="s-label">DAY 2 · 8 JUNE</p>
+    <h2 class="s-h2" data-ru="Материал тела и время" data-en="Body matter and time">Материал тела и время</h2>
+    <p class="s-body" data-ru="Класс Екатерины — о том, как движение становится материалом для исследования времени и пространства. iPhone — не инструмент записи, а участник процесса."
+       data-en="Ekaterina's class is about how movement becomes material for exploring time and space. The iPhone is not a recording tool, but a participant in the process.">
+      Класс Екатерины — о том, как движение становится материалом для исследования времени и пространства. iPhone — не инструмент записи, а участник процесса.
+    </p>
+    <button class="trailer-btn" data-video-ru="pyU1CMrvRLA" data-video-en="EYgnHrYCMHQ" data-ru="→ Смотреть трейлер" data-en="→ Watch trailer">→ Смотреть трейлер</button>
+  </div>
+</section>
+
+<!-- 9. REGISTRATION — white -->
+<section class="s s-white" id="s5">
+  <div class="s-inner">
+    <p class="s-label" data-ru="Билеты" data-en="Tickets">Билеты</p>
+    <h2 class="s-h2" data-ru="Участие" data-en="Participation">Участие</h2>
+    <p class="s-price">120 €</p>
+    <p class="s-body" data-ru="Оба дня интенсива. Количество мест ограничено."
+       data-en="Both days of the intensive. Limited spots available.">
+      Оба дня интенсива. Количество мест ограничено.
+    </p>
+    <div class="s-btns">
+      <a href="https://web.tribute.tg/s/X01" class="s-btn" target="_blank" data-ru="Купить билет — RU" data-en="Buy ticket — RU">Купить билет — RU</a>
+      <a href="https://web.tribute.tg/s/X02" class="s-btn" target="_blank" data-ru="Купить билет — EN" data-en="Buy ticket — EN">Купить билет — EN</a>
+    </div>
+  </div>
+</section>
+
+<!-- 10. FAQ — dark -->
+<section class="s s-dark" id="s6">
+  <div class="s-inner">
+    <p class="s-label" style="color:#c8bfb0">FAQ</p>
+    <h2 class="s-h2" style="color:#fff" data-ru="Вопросы" data-en="Questions">Вопросы</h2>
+    <div class="faq">
+      <div class="faq-i">
+        <button class="faq-q">
+          <span data-ru="Какой уровень?" data-en="What level?">Какой уровень?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p data-ru="Любой." data-en="Any level.">Любой.</p></div>
+      </div>
+      <div class="faq-i">
+        <button class="faq-q">
+          <span data-ru="Нужен iPhone?" data-en="Need an iPhone?">Нужен iPhone?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p data-ru="Желательно, подойдет любой смартфон с камерой." data-en="Preferably, any smartphone works.">Желательно, подойдет любой смартфон с камерой.</p></div>
+      </div>
+      <div class="faq-i">
+        <button class="faq-q">
+          <span data-ru="Где?" data-en="Where?">Где?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p data-ru="Берлин. Адрес после регистрации." data-en="Berlin. Address after registration.">Берлин. Адрес после регистрации.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. FINAL CTA — dark, full -->
+<section class="s s-dark s-cta">
+  <div class="s-inner" style="text-align:center">
+    <h2 class="s-h2" style="color:#fff;font-size:28px" data-ru="Билеты" data-en="Tickets">Билеты</h2>
+    <p class="s-body" style="color:#c8bfb0;text-align:center;max-width:300px;margin:8px auto 24px" data-ru="Места ограничены" data-en="Limited spots">Места ограничены</p>
+    <div class="s-btns" style="justify-content:center">
+      <a href="https://web.tribute.tg/s/X01" class="s-btn s-btn--light" target="_blank" data-ru="Купить — RU" data-en="Buy — RU">Купить — RU</a>
+      <a href="https://web.tribute.tg/s/X02" class="s-btn s-btn--light" target="_blank" data-ru="Купить — EN" data-en="Buy — EN">Купить — EN</a>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="videoModal">
+  <div class="modal-bg"></div>
+  <div class="modal-inner">
+    <button class="modal-close">✕</button>
+    <div id="ytPlayer"></div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>SŘEDA × SEAMLESS · Performance & iPhone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <span class="header-logo">SŘ<wbr>EDA × SEAM<wbr>LESS</span>
+    <nav class="header-nav">
+      <button class="lang-btn" id="langToggle" data-lang="ru">EN</button>
+      <button class="menu-btn" id="menuToggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ═══ MOBILE OVERLAY MENU ═══ -->
+<nav class="mobile-menu" id="mobileMenu">
+  <ul class="mobile-menu-list">
+    <li><a href="#statement" data-lang-ru="Манифест" data-lang-en="Statement">Манифест</a></li>
+    <li><a href="#teacher-1" data-lang-ru="Андрей Андрияшкин" data-lang-en="Andriyashkin">Андрей Андрияшкин</a></li>
+    <li><a href="#concept" data-lang-ru="Концепция" data-lang-en="Concept">Концепция</a></li>
+    <li><a href="#teacher-2" data-lang-ru="Екатерина Варнава" data-lang-en="Varnava">Екатерина Варнава</a></li>
+    <li><a href="#program" data-lang-ru="Программа" data-lang-en="Program">Программа</a></li>
+    <li><a href="#registration" data-lang-ru="Билеты" data-lang-en="Tickets">Билеты</a></li>
+    <li><a href="#faq" data-lang-ru="FAQ" data-lang-en="FAQ">FAQ</a></li>
+  </ul>
+  <div class="mobile-menu-footer">
+    <button class="lang-btn" id="langToggleMobile" data-lang="ru">EN</button>
+  </div>
+</nav>
+
+<!-- ═══ HERO — Dark, full-bleed ═══ -->
+<section class="spread spread-hero" id="hero">
+  <div class="hero-bg">
+    <picture>
+      <source srcset="https://images.sreda.seamless.club/theme/hero-mobile.jpg" media="(max-width: 640px)">
+      <img src="https://images.sreda.seamless.club/theme/hero.jpg" alt="">
+    </picture>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-label">
+      <span data-lang-ru="7–8 ИЮНЯ · БЕРЛИН" data-lang-en="JUNE 7–8 · BERLIN">7–8 ИЮНЯ · БЕРЛИН</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="hero-title-line">Performance</span>
+      <span class="hero-title-line hero-title-line--italic">&amp; iPhone</span>
+    </h1>
+    <p class="hero-sub" data-lang-ru="Тело как носитель" data-lang-en="The body as a carrier">Тело как носитель</p>
+  </div>
+  <div class="scroll-indicator">
+    <span></span>
+  </div>
+</section>
+
+<!-- ═══ STATEMENT — Cream editorial ═══ -->
+<section class="spread spread-statement" id="statement">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="statement-meta">—</div>
+    <blockquote class="statement-quote">
+      <p data-lang-ru="Тело не просто участвует в&nbsp;танце. Танец случается как&nbsp;событие&nbsp;— и&nbsp;становится документом, который мы&nbsp;носим с&nbsp;собой."
+         data-lang-en="The body doesn't merely participate in dance. Dance happens as an&nbsp;event&nbsp;— and becomes a&nbsp;document we carry with&nbsp;us.">
+        Тело не просто участвует в&nbsp;танце. Танец случается как&nbsp;событие&nbsp;— и&nbsp;становится документом, который мы&nbsp;носим с&nbsp;собой.
+      </p>
+    </blockquote>
+    <div class="statement-body">
+      <p data-lang-ru="Двухдневный интенсив на&nbsp;стыке contemporary dance, импровизации и&nbsp;digital-медиа. Исследуем, как iPhone становится инструментом движения, а&nbsp;не&nbsp;препятствием."
+         data-lang-en="A two-day intensive at the intersection of contemporary dance, improvisation, and digital media. Exploring how the iPhone becomes a tool of movement, not an obstacle.">
+        Двухдневный интенсив на&nbsp;стыке contemporary dance, импровизации и&nbsp;digital-медиа. Исследуем, как iPhone становится инструментом движения, а&nbsp;не&nbsp;препятствием.
+      </p>
+    </div>
+    <div class="statement-attr" data-lang-ru="SŘEDA + SEAMLESS" data-lang-en="SŘEDA + SEAMLESS">SŘEDA + SEAMLESS</div>
+  </div>
+</section>
+
+<!-- ═══ TEACHER 1 — Dark, full-bleed photo ═══ -->
+<section class="spread spread-teacher spread-teacher--dark" id="teacher-1">
+  <div class="teacher-image">
+    <picture>
+      <source srcset="https://images.sreda.seamless.club/theme/teacher-1-mobile.jpg" media="(max-width: 640px)">
+      <img src="https://images.sreda.seamless.club/theme/teacher-1.jpg" alt="">
+    </picture>
+  </div>
+  <div class="teacher-caption">
+    <h2 class="teacher-name" data-lang-ru="Андрей Андрияшкин" data-lang-en="Andrey Andriyashkin">Андрей Андрияшкин</h2>
+    <p class="teacher-role" data-lang-ru="Исследователь движения" data-lang-en="Movement researcher">Исследователь движения</p>
+  </div>
+</section>
+
+<!-- ═══ TEACHER 1 TEXT — White editorial ═══ -->
+<section class="spread spread-text spread-text--white">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-label">DAY 1 · 7 JUNE</div>
+    <h2 class="section-heading" data-lang-ru="Паркур тела и&nbsp;камера" data-lang-en="Parkour of the body and the camera">Паркур тела и&nbsp;камера</h2>
+    <div class="section-body">
+      <p data-lang-ru="Класс Андрея — это исследование кинестетического поля через паркурные принципы и&nbsp;работу с&nbsp;iPhone. Как камера меняет направление движения? Как тело находит опору в&nbsp;нестабильном?"
+         data-lang-en="Andrey's class is an exploration of the kinesthetic field through parkour principles and working with the iPhone. How does the camera change the direction of movement? How does the body find support in the unstable?">
+        Класс Андрея — это исследование кинестетического поля через паркурные принципы и&nbsp;работу с&nbsp;iPhone. Как камера меняет направление движения? Как тело находит опору в&nbsp;нестабильном?
+      </p>
+    </div>
+  </div>
+
+  <!-- Inline photo strip — 4 grayscale images -->
+  <div class="photo-strip">
+    <img src="https://images.sreda.seamless.club/theme/dance-1.jpg" alt="" loading="lazy">
+    <img src="https://images.sreda.seamless.club/theme/dance-2.jpg" alt="" loading="lazy">
+    <img src="https://images.sreda.seamless.club/theme/dance-3.jpg" alt="" loading="lazy">
+    <img src="https://images.sreda.seamless.club/theme/dance-4.jpg" alt="" loading="lazy">
+  </div>
+
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-body section-body--secondary">
+      <p data-lang-ru="Технические приемы, работа с&nbsp;весом, музыкальность и&nbsp;партнеринг. Каждый найдет свой способ взаимодействия с&nbsp;материалом."
+         data-lang-en="Technical techniques, weight work, musicality and partnering. Everyone will find their own way to interact with the material.">
+        Технические приемы, работа с&nbsp;весом, музыкальность и&nbsp;партнеринг. Каждый найдет свой способ взаимодействия с&nbsp;материалом.
+      </p>
+    </div>
+    <!-- Trailer button -->
+    <div class="trailer-link">
+      <button class="trailer-btn" data-video-ru="0-pUiSubwSI" data-video-en="JlVPtblL_2g" data-lang-ru="Смотреть трейлер" data-lang-en="Watch trailer">Смотреть трейлер</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONCEPT — Cream, mixed typography ═══ -->
+<section class="spread spread-concept" id="concept">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-label" data-lang-ru="Концепция" data-lang-en="Concept">Концепция</div>
+    <h2 class="concept-heading">
+      <span data-lang-ru="Тело&nbsp;как носитель" data-lang-en="Body&nbsp;as a&nbsp;carrier">Тело&nbsp;как носитель</span>
+      <span class="concept-heading-inline">
+        <img src="https://images.sreda.seamless.club/theme/icon-body.jpg" alt="" class="inline-image" loading="lazy">
+      </span>
+      <span data-lang-ru="события" data-lang-en="of the event">события</span>
+    </h2>
+  </div>
+
+  <div class="spread-inner spread-inner--narrow spread-inner--offset">
+    <div class="section-body">
+      <p data-lang-ru="Мы&nbsp;исходим из&nbsp;того, что движение — это первичный язык. iPhone — не&nbsp;экран, а&nbsp;продолжение руки. За&nbsp;два дня вы&nbsp;пройдете путь от&nbsp;телесной разминки до&nbsp;создания коротких хореографических этюдов с&nbsp;использованием камеры."
+         data-lang-en="Our premise: movement is the primary language. The iPhone is not a screen, but an extension of the hand. Over two days you will go from a physical warm-up to creating short choreographic studies using the camera.">
+        Мы&nbsp;исходим из&nbsp;того, что движение — это первичный язык. iPhone — не&nbsp;экран, а&nbsp;продолжение руки. За&nbsp;два дня вы&nbsp;пройдете путь от&nbsp;телесной разминки до&nbsp;создания коротких хореографических этюдов с&nbsp;использованием камеры.
+      </p>
+    </div>
+  </div>
+
+  <!-- Square inset photo row -->
+  <div class="concept-photos">
+    <img src="https://images.sreda.seamless.club/theme/studio-1.jpg" alt="" loading="lazy" class="concept-photo">
+    <img src="https://images.sreda.seamless.club/theme/studio-2.jpg" alt="" loading="lazy" class="concept-photo">
+    <img src="https://images.sreda.seamless.club/theme/studio-3.jpg" alt="" loading="lazy" class="concept-photo">
+  </div>
+</section>
+
+<!-- ═══ TEACHER 2 — Dark, full-bleed photo ═══ -->
+<section class="spread spread-teacher spread-teacher--dark" id="teacher-2">
+  <div class="teacher-image">
+    <picture>
+      <source srcset="https://images.sreda.seamless.club/theme/teacher-2-mobile.jpg" media="(max-width: 640px)">
+      <img src="https://images.sreda.seamless.club/theme/teacher-2.jpg" alt="">
+    </picture>
+  </div>
+  <div class="teacher-caption">
+    <h2 class="teacher-name" data-lang-ru="Екатерина Варнава" data-lang-en="Ekaterina Varnava">Екатерина Варнава</h2>
+    <p class="teacher-role" data-lang-ru="Хореограф, перформер" data-lang-en="Choreographer, performer">Хореограф, перформер</p>
+  </div>
+</section>
+
+<!-- ═══ TEACHER 2 TEXT — White editorial ═══ -->
+<section class="spread spread-text spread-text--white">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-label">DAY 2 · 8 JUNE</div>
+    <h2 class="section-heading" data-lang-ru="Материал тела и&nbsp;время" data-lang-en="Body matter and time">Материал тела и&nbsp;время</h2>
+    <div class="section-body">
+      <p data-lang-ru="Класс Екатерины — о&nbsp;том, как движение становится материалом для исследования времени и&nbsp;пространства. iPhone здесь — не&nbsp;инструмент записи, а&nbsp;участник процесса."
+         data-lang-en="Ekaterina's class is about how movement becomes material for exploring time and space. The iPhone here is not a recording tool, but a participant in the process.">
+        Класс Екатерины — о&nbsp;том, как движение становится материалом для исследования времени и&nbsp;пространства. iPhone здесь — не&nbsp;инструмент записи, а&nbsp;участник процесса.
+      </p>
+    </div>
+  </div>
+
+  <div class="photo-strip photo-strip--small">
+    <img src="https://images.sreda.seamless.club/theme/dance-5.jpg" alt="" loading="lazy">
+    <img src="https://images.sreda.seamless.club/theme/dance-6.jpg" alt="" loading="lazy">
+    <img src="https://images.sreda.seamless.club/theme/dance-7.jpg" alt="" loading="lazy">
+  </div>
+
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-body section-body--secondary">
+      <p data-lang-ru="Работа с&nbsp;весом, партнеринг, композиция. Материал строится от&nbsp;ощущения к&nbsp;форме."
+         data-lang-en="Weight work, partnering, composition. Material builds from sensation to form.">
+        Работа с&nbsp;весом, партнеринг, композиция. Материал строится от&nbsp;ощущения к&nbsp;форме.
+      </p>
+    </div>
+    <div class="trailer-link">
+      <button class="trailer-btn" data-video-ru="pyU1CMrvRLA" data-video-en="EYgnHrYCMHQ" data-lang-ru="Смотреть трейлер" data-lang-en="Watch trailer">Смотреть трейлер</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROGRAM DETAILS — Cream editorial ═══ -->
+<section class="spread spread-program" id="program">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-label" data-lang-ru="Программа" data-lang-en="Program">Программа</div>
+    <h2 class="section-heading" data-lang-ru="Формат" data-lang-en="Format">Формат</h2>
+
+    <div class="program-grid">
+      <div class="program-item">
+        <h3 class="program-day" data-lang-ru="День 1 · 7 июня" data-lang-en="Day 1 · June 7">День 1 · 7 июня</h3>
+        <p class="program-time">11:00 – 15:00</p>
+        <p class="program-desc" data-lang-ru="Паркур тела. Работа с&nbsp;весом, опора, взаимодействие с&nbsp;камерой. Андрей Андрияшкин."
+           data-lang-en="Parkour of the body. Weight work, support, interaction with the camera. Andrey Andriyashkin.">
+           Паркур тела. Работа с&nbsp;весом, опора, взаимодействие с&nbsp;камерой. Андрей Андрияшкин.
+        </p>
+      </div>
+      <div class="program-item">
+        <h3 class="program-day" data-lang-ru="День 2 · 8 июня" data-lang-en="Day 2 · June 8">День 2 · 8 июня</h3>
+        <p class="program-time">11:00 – 15:00</p>
+        <p class="program-desc" data-lang-ru="Материал тела и&nbsp;время. Композиция, партнеринг, этюды. Екатерина Варнава."
+           data-lang-en="Body matter and time. Composition, partnering, studies. Ekaterina Varnava.">
+           Материал тела и&nbsp;время. Композиция, партнеринг, этюды. Екатерина Варнава.
+        </p>
+      </div>
+    </div>
+
+    <div class="program-note">
+      <p data-lang-ru="Приносите удобную одежду для движения, iPhone (или любой смартфон с&nbsp;камерой), воду. Уровень подготовки — любой."
+         data-lang-en="Bring comfortable clothes for movement, an iPhone (or any smartphone with a camera), water. All levels welcome.">
+         Приносите удобную одежду для движения, iPhone (или любой смартфон с&nbsp;камерой), воду. Уровень подготовки — любой.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ REGISTRATION — White editorial ═══ -->
+<section class="spread spread-registration" id="registration">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-label" data-lang-ru="Билеты" data-lang-en="Tickets">Билеты</div>
+    <h2 class="section-heading" data-lang-ru="Участие" data-lang-en="Participation">Участие</h2>
+
+    <div class="ticket-info">
+      <div class="ticket-price" data-lang-ru="Два дня · 120 €" data-lang-en="Two days · 120 €">Два дня · 120 €</div>
+      <p class="ticket-desc" data-lang-ru="В стоимость входят оба дня интенсива. Количество мест ограничено."
+         data-lang-en="The price includes both days of the intensive. Limited spots available.">
+         В стоимость входят оба дня интенсива. Количество мест ограничено.
+      </p>
+    </div>
+
+    <div class="ticket-buttons">
+      <a href="https://web.tribute.tg/s/X01" class="ticket-btn ticket-btn--ru" target="_blank" rel="noopener">
+        <span class="ticket-btn-label" data-lang-ru="Купить билет — RU" data-lang-en="Buy ticket — RU">Купить билет — RU</span>
+        <span class="ticket-btn-arrow">→</span>
+      </a>
+      <a href="https://web.tribute.tg/s/X02" class="ticket-btn ticket-btn--en" target="_blank" rel="noopener">
+        <span class="ticket-btn-label" data-lang-ru="Купить билет — EN" data-lang-en="Buy ticket — EN">Купить билет — EN</span>
+        <span class="ticket-btn-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ — Dark, minimal ═══ -->
+<section class="spread spread-faq spread-faq--dark" id="faq">
+  <div class="spread-inner spread-inner--narrow">
+    <div class="section-label" data-lang-ru="FAQ" data-lang-en="FAQ">FAQ</div>
+    <h2 class="section-heading section-heading--light" data-lang-ru="Вопросы" data-lang-en="Questions">Вопросы</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-lang-ru="Какой уровень подготовки нужен?" data-lang-en="What level is required?">Какой уровень подготовки нужен?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-ru="Любой. Классы построены так, чтобы каждый нашел свой уровень сложности."
+             data-lang-en="Any level. Classes are structured so everyone finds their level.">
+             Любой. Классы построены так, чтобы каждый нашел свой уровень сложности.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-lang-ru="Нужен ли iPhone?" data-lang-en="Do I need an iPhone?">Нужен ли iPhone?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-ru="Желательно, но подойдет любой смартфон с камерой."
+             data-lang-en="Preferably, but any smartphone with a camera works.">
+             Желательно, но подойдет любой смартфон с камерой.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-lang-ru="Где проходит интенсив?" data-lang-en="Where does it take place?">Где проходит интенсив?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-ru="Берлин. Адрес придет после регистрации."
+             data-lang-en="Berlin. The address will be sent after registration.">
+             Берлин. Адрес придет после регистрации.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span data-lang-ru="Как вернуть билет?" data-lang-en="Can I get a refund?">Как вернуть билет?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-ru="Возврат возможен за 48 часов до начала интенсива."
+             data-lang-en="Refunds are possible up to 48 hours before the intensive.">
+             Возврат возможен за 48 часов до начала интенсива.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FINAL CTA — Black, image overlay ═══ -->
+<section class="spread spread-final">
+  <div class="final-bg">
+    <picture>
+      <source srcset="https://images.sreda.seamless.club/theme/hero-mobile.jpg" media="(max-width: 640px)">
+      <img src="https://images.sreda.seamless.club/theme/hero.jpg" alt="">
+    </picture>
+    <div class="final-overlay"></div>
+  </div>
+  <div class="final-content">
+    <h2 class="final-title">
+      <span data-lang-ru="Билеты" data-lang-en="Tickets">Билеты</span>
+    </h2>
+    <p class="final-sub" data-lang-ru="Места ограничены" data-lang-en="Limited spots">Места ограничены</p>
+    <div class="final-buttons">
+      <a href="https://web.tribute.tg/s/X01" class="ticket-btn ticket-btn--light" target="_blank" rel="noopener">
+        <span data-lang-ru="Купить — RU" data-lang-en="Buy — RU">Купить — RU</span>
+        <span class="ticket-btn-arrow">→</span>
+      </a>
+      <a href="https://web.tribute.tg/s/X02" class="ticket-btn ticket-btn--light" target="_blank" rel="noopener">
+        <span data-lang-ru="Купить — EN" data-lang-en="Buy — EN">Купить — EN</span>
+        <span class="ticket-btn-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ YOUTUBE MODAL ═══ -->
+<div class="modal" id="videoModal" aria-hidden="true">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <div class="modal-video">
+      <div id="youtubePlayer"></div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

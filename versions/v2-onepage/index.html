@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Performance &amp; iPhone — sreda+seamless</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=3">
+</head>
+<body>
+
+<!-- ═══════ LANG TOGGLE ═══════ -->
+<nav class="lang-nav">
+  <button class="ln ln-active" data-lang="en" onclick="setLang('en')">EN</button>
+  <span class="ln-sep">/</span>
+  <button class="ln" data-lang="ru" onclick="setLang('ru')">RU</button>
+</nav>
+
+<!-- ═══════ COVER SPREAD ═══════ -->
+<section class="cover">
+  <div class="cover-bg"></div>
+  <div class="cover-content">
+    <p class="cover-label" id="lbl-edition">sreda+seamless</p>
+    <h1 class="cover-title" id="t-main">Performance &amp; iPhone</h1>
+    <p class="cover-sub" id="t-sub">An online exhibition</p>
+    <p class="cover-line" id="t-line">Two masters of contemporary dance.<br>One evening of conversation, practice, and discovery.</p>
+    <div class="cover-info">
+      <span id="t-date">June 7 · 19:00 CET</span>
+      <span class="cover-dot">·</span>
+      <span id="t-lang">Russian with English translation</span>
+    </div>
+    <p class="cover-scroll" id="t-scroll">↓ Enter the exhibition</p>
+  </div>
+</section>
+
+<!-- ═══════ ANDRIYASHKIN SPREAD ═══════ -->
+<section class="spread spread-a">
+  <div class="spread-img">
+    <img src="assets/images/andriyashkin_photo_01.jpg" alt="Alexander Andriyashkin">
+    <div class="spread-vids">
+      <video src="assets/images/andriyashkin_01.mp4" muted loop playsinline preload="metadata"></video>
+      <video src="assets/images/andriyashkin_02.mp4" muted loop playsinline preload="metadata"></video>
+    </div>
+  </div>
+  <div class="spread-text">
+    <p class="spread-num">01</p>
+    <h2 class="spread-name" id="a-name">Alexander Andriyashkin</h2>
+    <p class="spread-role" id="a-role">Choreographer · Director · Educator</p>
+    <blockquote class="spread-quote" id="a-quote">"The body is not an instrument.<br>The body is the event."</blockquote>
+    <p class="spread-bio" id="a-bio">Golden Mask nominee. Creator of The_Marusya. Interdisciplinary works at the intersection of contemporary dance, theatre and performance. Since 2014 — author of his own movement laboratory exploring stage presence and new forms of interaction between body, space and audience.</p>
+  </div>
+</section>
+
+<!-- ═══════ VARNAVA SPREAD ═══════ -->
+<section class="spread spread-b">
+  <div class="spread-text">
+    <p class="spread-num">02</p>
+    <h2 class="spread-name" id="v-name">Vladimir Varnava</h2>
+    <p class="spread-role" id="v-role">Dancer · Choreographer · Director</p>
+    <blockquote class="spread-quote" id="v-quote">"Movement is not something you do.<br>Movement is something you witness."</blockquote>
+    <p class="spread-bio" id="v-bio">Two-time Golden Mask nominee. Artist of the Mariinsky Theatre. Participant of Context. Diana Vishneva festival. His distinctive style blends authentic physicality with theatricality, humour and deep exploration of human nature. Works presented across Europe, Asia and the Americas.</p>
+  </div>
+  <div class="spread-img">
+    <img src="assets/images/varnava_photo_01.jpg" alt="Vladimir Varnava">
+    <div class="spread-vids">
+      <video src="assets/images/varnava_01.mp4" muted loop playsinline preload="metadata"></video>
+      <video src="assets/images/varnava_02.mp4" muted loop playsinline preload="metadata"></video>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ EXHIBITS SPREAD ═══════ -->
+<section class="exhibits">
+  <p class="exhibits-num">03</p>
+  <h2 class="sec-title" id="e-title">Free materials</h2>
+  <p class="sec-sub" id="e-sub">Two exhibits — watch before the webinar to enter the context.</p>
+  <div class="exhibits-grid">
+    <div class="exhibit">
+      <div class="exhibit-frame" onclick="playVid(1)">
+        <div class="exhibit-play">▶</div>
+        <div class="exhibit-caption">
+          <span class="exhibit-tag" id="e1-tag">Theory</span>
+          <span class="exhibit-name" id="e1-name">Andriyashkin — 100 years in 100 minutes</span>
+        </div>
+      </div>
+      <div class="exhibit-embed hidden" id="e1-embed"></div>
+      <p class="exhibit-desc" id="e1-desc">A lecture-performance on the history of contemporary dance. From modern to post-modern to now.</p>
+    </div>
+    <div class="exhibit">
+      <div class="exhibit-frame" onclick="playVid(2)">
+        <div class="exhibit-play">▶</div>
+        <div class="exhibit-caption">
+          <span class="exhibit-tag" id="e2-tag">Practice</span>
+          <span class="exhibit-name" id="e2-name">Varnava — Body &amp; Gravity</span>
+        </div>
+      </div>
+      <div class="exhibit-embed hidden" id="e2-embed"></div>
+      <p class="exhibit-desc" id="e2-desc">A practical session on weight, gravity and presence in movement. Exercises you can do at home.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ WEBINAR CHAPTER ═══════ -->
+<section class="chapter">
+  <p class="chapter-num">04</p>
+  <h2 class="chapter-title" id="c-title">Tools of the Performative Body</h2>
+  <p class="chapter-desc" id="c-desc">How to use your body as a tool for expression in social media. Not about going viral. About presence. About being seen.</p>
+  
+  <div class="chapter-topics" id="c-topics">
+    <div class="topic" id="top-1">What is performance vs dance — and where is the line?</div>
+    <div class="topic" id="top-2">Social media as a full stage for contemporary art</div>
+    <div class="topic" id="top-3">Practical tools and approaches for making performance</div>
+    <div class="topic" id="top-4">Live Q&A — ask your teachers anything</div>
+  </div>
+
+  <div class="chapter-meta">
+    <div class="cm-item">
+      <span class="cm-label" id="cm-date">Date</span>
+      <span class="cm-val" id="cv-date">June 7 · 19:00 CET / 20:00 MSK</span>
+    </div>
+    <div class="cm-item">
+      <span class="cm-label" id="cm-format">Format</span>
+      <span class="cm-val" id="cv-format">Online · 1–2 hours · Zoom</span>
+    </div>
+    <div class="cm-item">
+      <span class="cm-label" id="cm-lang">Language</span>
+      <span class="cm-val" id="cv-lang">Russian with English translation</span>
+    </div>
+    <div class="cm-item">
+      <span class="cm-label" id="cm-rec">Recording</span>
+      <span class="cm-val" id="cv-rec">Available to all participants</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ COLOPHON (PRICING) ═══════ -->
+<section class="colophon">
+  <p class="colophon-num">Edition of 47</p>
+  <div class="colophon-inner">
+    <div class="colophon-price">
+      <span class="cp-old">$97</span>
+      <span class="cp-cur" id="cp-cur">$47</span>
+      <span class="cp-info" id="cp-info">Early bird — use code EARLY47</span>
+    </div>
+    <p class="colophon-text" id="col-text">Join two masters of contemporary dance for an evening of conversation, practice and discovery. After payment you'll receive the Zoom link and recording access.</p>
+    <div class="colophon-btns">
+      <a href="https://web.tribute.tg/s/X02" class="colophon-btn" id="btn-en" target="_blank">Buy ticket — $47</a>
+      <a href="https://web.tribute.tg/s/X01" class="colophon-btn" id="btn-ru" target="_blank">Купить билет — $47</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="footer">
+  <span>sreda+seamless</span>
+  <span class="footer-lang" id="f-line">An online exhibition · June 7, 2026</span>
+</footer>
+
+<script src="assets/js/main.js?v=3"></script>
+</body>
+</html>
