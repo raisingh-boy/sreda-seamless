@@ -3,356 +3,161 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contemporary Dance & Performance in the Age of Reels — sreda+seamless</title>
-<meta name="description" content="How do ideas become movement, images and expression? A webinar on contemporary dance, artistic research and performance in the digital age. With Alexander Andriyashkin and Vladimir Varnava.">
-<meta property="og:title" content="Contemporary Dance & Performance in the Age of Reels">
-<meta property="og:description" content="How do ideas become movement, images and expression? A webinar with Andriyashkin and Varnava.">
-<meta property="og:type" content="website">
+<title>Performance &amp; iPhone — sreda+seamless</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=4">
-<style>
-  :root{--accent:#b8925a;--text:#1a1a1a;--text2:#555;--text3:#888;--bg:#faf8f5;--bg2:#f0ece6;--bg3:#e5dfd5;--danger:#c0392b;--radius:8px}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;-webkit-font-smoothing:antialiased}
-  h1,h2,h3{font-family:'Playfair Display',serif;font-weight:400}
-  section{padding:60px 24px;max-width:720px;margin:0 auto}
-  .hero{padding:100px 24px 60px;text-align:center}
-  .hero-label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--accent);margin-bottom:24px}
-  .hero h1{font-size:clamp(28px,5vw,48px);line-height:1.15;margin-bottom:20px;font-weight:600}
-  .hero h1 i{font-weight:400;color:var(--accent)}
-  .hero-sub{font-size:18px;color:var(--text2);line-height:1.6;max-width:500px;margin:0 auto}
-  .quote{background:var(--bg2);padding:40px 32px;border-radius:var(--radius)}
-  .quote p{font-size:17px;font-style:italic;line-height:1.7;color:var(--text)}
-  .manifesto p,.manifesto li{font-size:15px;margin-bottom:12px}
-  .manifesto h3{font-size:22px;margin:40px 0 16px;color:var(--accent)}
-  .manifesto ul{list-style:none;padding:0}
-  .manifesto ul li{padding:5px 0}
-  .vs{display:flex;gap:40px;flex-wrap:wrap;margin:32px 0}
-  .vs-col{flex:1;min-width:250px}
-  .vs-col h4{font-size:15px;margin-bottom:12px}
-  .vs-col.good h4{color:var(--accent)}
-  .vs-col.bad h4{color:var(--danger)}
-  .vs-col li{font-size:14px;padding:6px 0;color:var(--text2)}
-  .teachers{display:flex;gap:40px;flex-wrap:wrap}
-  .teacher{flex:1;min-width:280px}
-  .teacher-name{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:4px}
-  .teacher-role{font-size:13px;color:var(--text3);margin-bottom:12px;text-transform:uppercase;letter-spacing:1px}
-  .teacher-bio{font-size:14px;color:var(--text2);line-height:1.7}
-  .sessions{margin:32px 0}
-  .session{border:1px solid var(--bg3);border-radius:var(--radius);padding:24px;margin-bottom:16px}
-  .session h4{font-size:15px;margin-bottom:12px}
-  .session-row{display:flex;justify-content:space-between;padding:4px 0;font-size:13px;color:var(--text2)}
-  .price-block{text-align:center;margin:32px 0}
-  .price-old{text-decoration:line-through;color:var(--text3);font-size:18px;margin-right:12px}
-  .price-cur{font-family:'Playfair Display',serif;font-size:48px;color:var(--accent);font-weight:600}
-  .price-info{display:block;font-size:13px;color:var(--text3);margin-top:4px}
-  .btn{display:inline-block;padding:16px 40px;background:var(--accent);color:#fff;font-size:15px;font-weight:500;letter-spacing:.5px;text-decoration:none;border-radius:var(--radius);transition:.2s}
-  .btn:hover{opacity:.9}
-  .btn-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px}
-  .for-grid{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-  .for-tag{background:var(--bg2);padding:6px 16px;border-radius:20px;font-size:13px;color:var(--text2)}
-  .faq-item{border-bottom:1px solid var(--bg3);padding:16px 0;cursor:pointer}
-  .faq-q{font-size:15px;font-weight:500;display:flex;justify-content:space-between;align-items:center;background:none;border:none;width:100%;text-align:left;color:var(--text);cursor:pointer;padding:0}
-  .faq-a{font-size:14px;color:var(--text2);padding-top:8px;display:none}
-  .faq-a.open{display:block}
-  .lang-nav{position:fixed;top:16px;right:24px;z-index:100;display:flex;gap:4px;font-size:13px;background:rgba(250,248,245,.9);backdrop-filter:blur(4px);padding:5px 12px;border-radius:20px;border:1px solid var(--bg3)}
-  .lang-nav button{background:none;border:none;color:var(--text3);cursor:pointer;font-family:inherit}
-  .lang-nav button.active{color:var(--accent);font-weight:600}
-  .lang-nav .sep{color:var(--bg3)}
-  footer{padding:40px 24px;text-align:center;font-size:12px;color:var(--text3);border-top:1px solid var(--bg3)}
-  [data-ru]{display:none}
-  html[lang="ru"] [data-ru]{display:block}
-  html[lang="ru"] [data-en]{display:none}
-  html[lang="ru"] [data-ru-inline]{display:inline}
-  html[lang="en"] [data-ru-inline]{display:none}
-  [data-ru-inline]{display:none}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=3">
 </head>
 <body>
 
+<!-- ═══════ LANG TOGGLE ═══════ -->
 <nav class="lang-nav">
-  <button id="btn-en" class="active" onclick="setLang('en')">EN</button>
-  <span class="sep">/</span>
-  <button id="btn-ru" onclick="setLang('ru')">RU</button>
+  <button class="ln ln-active" data-lang="en" onclick="setLang('en')">EN</button>
+  <span class="ln-sep">/</span>
+  <button class="ln" data-lang="ru" onclick="setLang('ru')">RU</button>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-label">sreda+seamless</div>
-  <h1>
-    <span data-en>Contemporary Dance & Performance<br><i>in the Age of Reels</i></span>
-    <span data-ru>Contemporary Dance & Performance<br><i>в эпоху Reels</i></span>
-  </h1>
-  <p class="hero-sub">
-    <span data-en>How do ideas become movement, images and expression?</span>
-    <span data-ru>Как идеи становятся движением, образами и выражением?</span>
-  </p>
-</section>
-
-<!-- OPENING -->
-<section>
-  <div class="manifesto">
-    <p data-en>We live in a time when performance is no longer limited to the stage. Today, movement, images and personal stories exist across different spaces — from theatre and galleries to digital platforms. Reels, videos and social media have become part of the language of our time.</p>
-    <p data-ru>Мы живём во время, когда перформанс больше не ограничен сценой. Сегодня движение, образы и личные истории существуют в разных пространствах — от театра и галерей до цифровых платформ. Reels, видео и социальные сети стали частью языка нашего времени.</p>
-    
-    <p data-en style="margin-top:8px;color:var(--text2)">But behind every image there is a deeper question:</p>
-    <p data-ru style="margin-top:8px;color:var(--text2)">Но за каждым образом стоит более глубокий вопрос:</p>
-    <ul>
-      <li data-en>How does an idea become a form?</li>
-      <li data-ru>Как идея становится формой?</li>
-      <li data-en>How does a feeling become a movement?</li>
-      <li data-ru>Как чувство становится движением?</li>
-      <li data-en>How does an internal impulse become something that can be shared with others?</li>
-      <li data-ru>Как внутренний импульс становится тем, чем можно поделиться с другими?</li>
-    </ul>
-    
-    <h3 data-en>Why are we exploring this?</h3>
-    <h3 data-ru>Почему мы это исследуем?</h3>
-    <p data-en>In contemporary art, creation rarely starts with a ready-made answer. It starts with a question. An observation. A curiosity. A search.</p>
-    <p data-ru>В современном искусстве создание редко начинается с готового ответа. Оно начинается с вопроса. Наблюдения. Любопытства. Поиска.</p>
-    <p data-en>Artists, dancers and performers develop their work through a process of research — exploring context, body, space and meaning. This is how new forms appear.</p>
-    <p data-ru>Художники, танцовщики и перформеры развивают свою работу через процесс исследования — изучая контекст, тело, пространство и смысл. Так появляются новые формы.</p>
-    <p data-en>During this webinar we will explore how artistic thinking can help us create ideas and transform them into expression.</p>
-    <p data-ru>На этом вебинаре мы исследуем, как художественное мышление помогает создавать идеи и превращать их в выражение.</p>
-  </div>
-</section>
-
-<!-- DURING THE WEBINAR -->
-<section>
-  <div class="manifesto">
-    <h3 data-en>During the webinar we will</h3>
-    <h3 data-ru>На вебинаре мы</h3>
-    <ul>
-      <li data-en>explore real questions about creation and expression</li>
-      <li data-ru>исследуем реальные вопросы о создании и выражении</li>
-      <li data-en>look at how artistic concepts are built</li>
-      <li data-ru>посмотрим, как строятся художественные концепции</li>
-      <li data-en>discover tools for developing ideas</li>
-      <li data-ru>откроем инструменты для развития идей</li>
-      <li data-en>see how an idea can transform through the body and movement</li>
-      <li data-ru>увидим, как идея трансформируется через тело и движение</li>
-      <li data-en>experiment with translating a concept into a visual form</li>
-      <li data-ru>поэкспериментируем с переводом концепта в визуальную форму</li>
-    </ul>
-  </div>
-</section>
-
-<!-- NOT vs YES -->
-<section>
-  <div class="vs">
-    <div class="vs-col bad">
-      <h4>❌ <span data-en>We won't teach</span><span data-ru>Мы не учим</span></h4>
-      <ul>
-        <li data-en>How to make viral content</li>
-        <li data-ru>Как делать виральный контент</li>
-        <li data-en>How to copy successful formats</li>
-        <li data-ru>Как копировать успешные форматы</li>
-        <li data-en>Universal formulas for creativity</li>
-        <li data-ru>Универсальные формулы креативности</li>
-      </ul>
+<!-- ═══════ COVER SPREAD ═══════ -->
+<section class="cover">
+  <div class="cover-bg"></div>
+  <div class="cover-content">
+    <p class="cover-label" id="lbl-edition">sreda+seamless</p>
+    <h1 class="cover-title" id="t-main">Performance &amp; iPhone</h1>
+    <p class="cover-sub" id="t-sub">An online exhibition</p>
+    <p class="cover-line" id="t-line">Two masters of contemporary dance.<br>One evening of conversation, practice, and discovery.</p>
+    <div class="cover-info">
+      <span id="t-date">June 7 · 19:00 CET</span>
+      <span class="cover-dot">·</span>
+      <span id="t-lang">Russian with English translation</span>
     </div>
-    <div class="vs-col good">
-      <h4>✓ <span data-en>We will explore</span><span data-ru>Мы исследуем</span></h4>
-      <ul>
-        <li data-en>How artists create ideas</li>
-        <li data-ru>Как художники создают идеи</li>
-        <li data-en>How concepts become forms</li>
-        <li data-ru>Как концепции становятся формами</li>
-        <li data-en>How the body becomes a tool of communication</li>
-        <li data-ru>Как тело становится инструментом коммуникации</li>
-        <li data-en>How research leads to new possibilities</li>
-        <li data-ru>Как исследование ведёт к новым возможностям</li>
-        <li data-en>How to create from your own perspective</li>
-        <li data-ru>Как создавать из собственной перспективы</li>
-      </ul>
+    <p class="cover-scroll" id="t-scroll">↓ Enter the exhibition</p>
+  </div>
+</section>
+
+<!-- ═══════ ANDRIYASHKIN SPREAD ═══════ -->
+<section class="spread spread-a">
+  <div class="spread-img">
+    <img src="assets/images/andriyashkin_photo_01.jpg" alt="Alexander Andriyashkin">
+    <div class="spread-vids">
+      <video src="assets/images/andriyashkin_01.mp4" muted loop playsinline preload="metadata"></video>
+      <video src="assets/images/andriyashkin_02.mp4" muted loop playsinline preload="metadata"></video>
+    </div>
+  </div>
+  <div class="spread-text">
+    <p class="spread-num">01</p>
+    <h2 class="spread-name" id="a-name">Alexander Andriyashkin</h2>
+    <p class="spread-role" id="a-role">Choreographer · Director · Educator</p>
+    <blockquote class="spread-quote" id="a-quote">"The body is not an instrument.<br>The body is the event."</blockquote>
+    <p class="spread-bio" id="a-bio">Golden Mask nominee. Creator of The_Marusya. Interdisciplinary works at the intersection of contemporary dance, theatre and performance. Since 2014 — author of his own movement laboratory exploring stage presence and new forms of interaction between body, space and audience.</p>
+  </div>
+</section>
+
+<!-- ═══════ VARNAVA SPREAD ═══════ -->
+<section class="spread spread-b">
+  <div class="spread-text">
+    <p class="spread-num">02</p>
+    <h2 class="spread-name" id="v-name">Vladimir Varnava</h2>
+    <p class="spread-role" id="v-role">Dancer · Choreographer · Director</p>
+    <blockquote class="spread-quote" id="v-quote">"Movement is not something you do.<br>Movement is something you witness."</blockquote>
+    <p class="spread-bio" id="v-bio">Two-time Golden Mask nominee. Artist of the Mariinsky Theatre. Participant of Context. Diana Vishneva festival. His distinctive style blends authentic physicality with theatricality, humour and deep exploration of human nature. Works presented across Europe, Asia and the Americas.</p>
+  </div>
+  <div class="spread-img">
+    <img src="assets/images/varnava_photo_01.jpg" alt="Vladimir Varnava">
+    <div class="spread-vids">
+      <video src="assets/images/varnava_01.mp4" muted loop playsinline preload="metadata"></video>
+      <video src="assets/images/varnava_02.mp4" muted loop playsinline preload="metadata"></video>
     </div>
   </div>
 </section>
 
-<!-- OUTCOMES -->
-<section>
-  <div class="manifesto">
-    <h3 data-en>You may leave with</h3>
-    <h3 data-ru>Вы можете уйти с</h3>
-    <ul>
-      <li data-en>A new way of looking at creativity</li>
-      <li data-ru>Новым взглядом на креативность</li>
-      <li data-en>Tools for developing your own ideas</li>
-      <li data-ru>Инструментами для развития собственных идей</li>
-      <li data-en>A deeper understanding of the connection between concept, body and expression</li>
-      <li data-ru>Более глубоким пониманием связи между концептом, телом и выражением</li>
-      <li data-en>A new perspective on performance in the contemporary world</li>
-      <li data-ru>Новым взглядом на перформанс в современном мире</li>
-    </ul>
-  </div>
-</section>
-
-<!-- FOR WHOM -->
-<section>
-  <div class="manifesto">
-    <h3 data-en>For whom</h3>
-    <h3 data-ru>Для кого</h3>
-    <div class="for-grid">
-      <span class="for-tag" data-en>Dancers & choreographers</span><span class="for-tag" data-ru>Танцовщики и хореографы</span>
-      <span class="for-tag" data-en>Performers & artists</span><span class="for-tag" data-ru>Перформеры и художники</span>
-      <span class="for-tag" data-en>Movement researchers</span><span class="for-tag" data-ru>Исследователи движения</span>
-      <span class="for-tag" data-en>Content creators</span><span class="for-tag" data-ru>Создатели контента</span>
-      <span class="for-tag" data-en>Anyone curious about creativity</span><span class="for-tag" data-ru>Все, кому интересна креативность</span>
-    </div>
-  </div>
-</section>
-
-<!-- QUOTE -->
-<section>
-  <div class="quote">
-    <p data-en>"Raise your hand if you've seen a performance in the last month" — half the room.<br>"Now those who watched stories or Reels" — everyone stood up.</p>
-    <p data-ru>"Поднимите руку, если за последний месяц вы видели перформанс" — половина зала.<br>"А теперь те, кто смотрел stories или Reels" — встали все.</p>
-    <p style="font-size:12px;color:var(--text3);margin-top:8px" data-en>— Alexander Andriyashkin</p>
-    <p style="font-size:12px;color:var(--text3);margin-top:8px" data-ru>— Александр Андрияшкин</p>
-  </div>
-</section>
-
-<!-- TEACHERS -->
-<section>
-  <h3 style="font-family:'Playfair Display',serif;font-size:22px;margin-bottom:24px;color:var(--accent)" data-en>Your teachers</h3>
-  <h3 style="font-family:'Playfair Display',serif;font-size:22px;margin-bottom:24px;color:var(--accent)" data-ru>Ваши преподаватели</h3>
-  <div class="teachers">
-    <div class="teacher">
-      <div class="teacher-name" data-en>Alexander Andriyashkin</div>
-      <div class="teacher-name" data-ru>Александр Андрияшкин</div>
-      <div class="teacher-role" data-en>Choreographer, director, educator</div>
-      <div class="teacher-role" data-ru>Хореограф, режиссёр, педагог</div>
-      <p class="teacher-bio" data-en>Golden Mask nominee. Creator of The_Marusya. Interdisciplinary works at the intersection of contemporary dance, theatre and performance. Since 2014 — author of his own movement laboratory exploring stage presence and new forms of interaction between body, space and audience.</p>
-      <p class="teacher-bio" data-ru>Номинант «Золотой Маски». Создатель спектакля The_Marusya. Междисциплинарные работы на стыке современного танца, театра и перформанса. С 2014 — автор собственной лаборатории движения, исследующей присутствие на сцене и новые формы взаимодействия тела, пространства и зрителя.</p>
-    </div>
-    <div class="teacher">
-      <div class="teacher-name" data-en>Vladimir Varnava</div>
-      <div class="teacher-name" data-ru>Владимир Варнава</div>
-      <div class="teacher-role" data-en>Dancer, choreographer, director</div>
-      <div class="teacher-role" data-ru>Танцовщик, хореограф, режиссёр</div>
-      <p class="teacher-bio" data-en>Two-time Golden Mask nominee. Artist of the Mariinsky Theatre. Participant of Context. Diana Vishneva festival. His style blends authentic physicality with theatricality, humour and deep exploration of human nature.</p>
-      <p class="teacher-bio" data-ru>Двукратный номинант «Золотой Маски». Артист Мариинского театра. Участник фестиваля Context. Diana Vishneva. Его стиль сочетает аутентичную физику с театральностью, юмором и глубоким исследованием человеческой природы.</p>
-    </div>
-  </div>
-</section>
-
-<!-- SESSIONS -->
-<section>
-  <div class="manifesto">
-    <h3 data-en>Format</h3>
-    <h3 data-ru>Формат</h3>
-    <div class="sessions">
-      <div class="session">
-        <h4 data-en>🇷🇺 Russian session</h4>
-        <h4 data-ru>🇷🇺 Русская сессия</h4>
-        <div class="session-row"><span data-en>Date</span><span data-ru>Дата</span><span data-en>July 7, Tuesday</span><span data-ru>7 июля, вторник</span></div>
-        <div class="session-row"><span data-en>Duration</span><span data-ru>Длительность</span><span>2 часа</span></div>
-        <div class="session-row"><span>Bali (UTC+8)</span><span>20:00 – 22:00</span></div>
-        <div class="session-row"><span>Moscow (MSK)</span><span>15:00 – 17:00</span></div>
-        <div class="session-row"><span>Berlin (CEST)</span><span>14:00 – 16:00</span></div>
-        <div class="session-row"><span>New York (EDT)</span><span>08:00 – 10:00</span></div>
+<!-- ═══════ EXHIBITS SPREAD ═══════ -->
+<section class="exhibits">
+  <p class="exhibits-num">03</p>
+  <h2 class="sec-title" id="e-title">Free materials</h2>
+  <p class="sec-sub" id="e-sub">Two exhibits — watch before the webinar to enter the context.</p>
+  <div class="exhibits-grid">
+    <div class="exhibit">
+      <div class="exhibit-frame" onclick="playVid(1)">
+        <div class="exhibit-play">▶</div>
+        <div class="exhibit-caption">
+          <span class="exhibit-tag" id="e1-tag">Theory</span>
+          <span class="exhibit-name" id="e1-name">Andriyashkin — 100 years in 100 minutes</span>
+        </div>
       </div>
-      <div class="session">
-        <h4 data-en>🇬🇧 English session</h4>
-        <h4 data-ru>🇬🇧 Английская сессия</h4>
-        <div class="session-row"><span data-en>Date</span><span data-ru>Дата</span><span data-en>July 15, Wednesday</span><span data-ru>15 июля, среда</span></div>
-        <div class="session-row"><span data-en>Duration</span><span data-ru>Длительность</span><span>2 hours</span></div>
-        <div class="session-row"><span>Bali (UTC+8)</span><span>19:00 – 21:00</span></div>
-        <div class="session-row"><span>Moscow (MSK)</span><span>14:00 – 16:00</span></div>
-        <div class="session-row"><span>Berlin (CEST)</span><span>13:00 – 15:00</span></div>
-        <div class="session-row"><span>New York (EDT)</span><span>07:00 – 09:00</span></div>
+      <div class="exhibit-embed hidden" id="e1-embed"></div>
+      <p class="exhibit-desc" id="e1-desc">A lecture-performance on the history of contemporary dance. From modern to post-modern to now.</p>
+    </div>
+    <div class="exhibit">
+      <div class="exhibit-frame" onclick="playVid(2)">
+        <div class="exhibit-play">▶</div>
+        <div class="exhibit-caption">
+          <span class="exhibit-tag" id="e2-tag">Practice</span>
+          <span class="exhibit-name" id="e2-name">Varnava — Body &amp; Gravity</span>
+        </div>
       </div>
-    </div>
-    <ul style="list-style:none;padding:0;margin-top:8px">
-      <li data-en style="font-size:14px;color:var(--text2);padding:3px 0">2-hour session with live Q&A</li>
-      <li data-ru style="font-size:14px;color:var(--text2);padding:3px 0">2-часовая сессия с живым Q&A</li>
-      <li data-en style="font-size:14px;color:var(--text2);padding:3px 0">Recording available to all participants</li>
-      <li data-ru style="font-size:14px;color:var(--text2);padding:3px 0">Запись доступна всем участникам</li>
-      <li data-en style="font-size:14px;color:var(--text2);padding:3px 0">Online via Zoom — link after purchase</li>
-      <li data-ru style="font-size:14px;color:var(--text2);padding:3px 0">Онлайн через Zoom — ссылка после оплаты</li>
-    </ul>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section>
-  <div class="faq-item" onclick="this.querySelector('.faq-a').classList.toggle('open')">
-    <div class="faq-q">
-      <span data-en>Do I need dance experience?</span>
-      <span data-ru>Нужен ли опыт в танце?</span>
-      <span>▾</span>
-    </div>
-    <div class="faq-a">
-      <p data-en>Any level. The webinar is designed for both beginners and practicing dancers, performers, and movement researchers.</p>
-      <p data-ru>Любой уровень. Вебинар подходит как начинающим, так и практикующим танцовщикам, перформерам и исследователям движения.</p>
-    </div>
-  </div>
-  <div class="faq-item" onclick="this.querySelector('.faq-a').classList.toggle('open')">
-    <div class="faq-q">
-      <span data-en>Will there be a recording?</span>
-      <span data-ru>Будет ли запись?</span>
-      <span>▾</span>
-    </div>
-    <div class="faq-a">
-      <p data-en>Yes. All participants receive the recording.</p>
-      <p data-ru>Да. Все участники получают запись.</p>
-    </div>
-  </div>
-  <div class="faq-item" onclick="this.querySelector('.faq-a').classList.toggle('open')">
-    <div class="faq-q">
-      <span data-en>How does it work online?</span>
-      <span data-ru>Как проходит онлайн?</span>
-      <span>▾</span>
-    </div>
-    <div class="faq-a">
-      <p data-en>You'll receive a private Zoom link after purchase.</p>
-      <p data-ru>Вы получите приватную ссылку Zoom после оплаты.</p>
+      <div class="exhibit-embed hidden" id="e2-embed"></div>
+      <p class="exhibit-desc" id="e2-desc">A practical session on weight, gravity and presence in movement. Exercises you can do at home.</p>
     </div>
   </div>
 </section>
 
-<!-- PRICING -->
-<section style="text-align:center">
-  <div class="price-block">
-    <div>
-      <span class="price-old">$97</span>
-      <span class="price-cur">$47</span>
-    </div>
-    <span class="price-info" data-en>Early bird price. Regular — $97</span>
-    <span class="price-info" data-ru>Цена Early Bird. Обычная — $97</span>
+<!-- ═══════ WEBINAR CHAPTER ═══════ -->
+<section class="chapter">
+  <p class="chapter-num">04</p>
+  <h2 class="chapter-title" id="c-title">Tools of the Performative Body</h2>
+  <p class="chapter-desc" id="c-desc">How to use your body as a tool for expression in social media. Not about going viral. About presence. About being seen.</p>
+  
+  <div class="chapter-topics" id="c-topics">
+    <div class="topic" id="top-1">What is performance vs dance — and where is the line?</div>
+    <div class="topic" id="top-2">Social media as a full stage for contemporary art</div>
+    <div class="topic" id="top-3">Practical tools and approaches for making performance</div>
+    <div class="topic" id="top-4">Live Q&A — ask your teachers anything</div>
   </div>
-  <p style="font-size:15px;color:var(--text2);max-width:480px;margin:0 auto 24px" data-en>Join two masters of contemporary dance for an evening of exploration. How do ideas become movement, images and expression?</p>
-  <p style="font-size:15px;color:var(--text2);max-width:480px;margin:0 auto 24px" data-ru>Присоединяйтесь к двум мастерам современного танца для вечера исследования. Как идеи становятся движением, образами и выражением?</p>
-  <div class="btn-row">
-    <a href="https://web.tribute.tg/s/X01" class="btn" target="_blank" data-en>Buy ticket — $47</a>
-    <a href="https://web.tribute.tg/s/X01" class="btn" target="_blank" data-ru>Купить билет — $47</a>
+
+  <div class="chapter-meta">
+    <div class="cm-item">
+      <span class="cm-label" id="cm-date">Date</span>
+      <span class="cm-val" id="cv-date">June 7 · 19:00 CET / 20:00 MSK</span>
+    </div>
+    <div class="cm-item">
+      <span class="cm-label" id="cm-format">Format</span>
+      <span class="cm-val" id="cv-format">Online · 1–2 hours · Zoom</span>
+    </div>
+    <div class="cm-item">
+      <span class="cm-label" id="cm-lang">Language</span>
+      <span class="cm-val" id="cv-lang">Russian with English translation</span>
+    </div>
+    <div class="cm-item">
+      <span class="cm-label" id="cm-rec">Recording</span>
+      <span class="cm-val" id="cv-rec">Available to all participants</span>
+    </div>
   </div>
 </section>
 
-<footer>
+<!-- ═══════ COLOPHON (PRICING) ═══════ -->
+<section class="colophon">
+  <p class="colophon-num">Edition of 47</p>
+  <div class="colophon-inner">
+    <div class="colophon-price">
+      <span class="cp-old">$97</span>
+      <span class="cp-cur" id="cp-cur">$47</span>
+      <span class="cp-info" id="cp-info">Early bird — use code EARLY47</span>
+    </div>
+    <p class="colophon-text" id="col-text">Join two masters of contemporary dance for an evening of conversation, practice and discovery. After payment you'll receive the Zoom link and recording access.</p>
+    <div class="colophon-btns">
+      <a href="https://web.tribute.tg/s/X02" class="colophon-btn" id="btn-en" target="_blank">Buy ticket — $47</a>
+      <a href="https://web.tribute.tg/s/X01" class="colophon-btn" id="btn-ru" target="_blank">Купить билет — $47</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="footer">
   <span>sreda+seamless</span>
-  <span style="margin-left:16px" data-en>July 7–15, 2026 · Online</span>
-  <span style="margin-left:16px" data-ru>7–15 июля, 2026 · Онлайн</span>
+  <span class="footer-lang" id="f-line">An online exhibition · June 7, 2026</span>
 </footer>
 
-<script>
-  function setLang(l) {
-    document.documentElement.lang = l;
-    document.querySelectorAll('.lang-nav button').forEach(b => b.classList.remove('active'));
-    document.getElementById('btn-' + l).classList.add('active');
-    try { localStorage.setItem('sreda-lang', l); } catch(e) {}
-  }
-  (function() {
-    var saved = localStorage.getItem('sreda-lang') || 'en';
-    setLang(saved);
-    document.querySelectorAll('.faq-item').forEach(function(el) {
-      el.addEventListener('click', function() {
-        el.querySelector('.faq-a').classList.toggle('open');
-      });
-    });
-  })();
-</script>
+<script src="assets/js/main.js?v=3"></script>
 </body>
 </html>
