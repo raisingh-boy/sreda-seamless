@@ -317,7 +317,7 @@ function applyLang(l) {
   for (const [key, value] of Object.entries(t)) {
     const el = document.getElementById(key);
     if (el) {
-      if (key === 'lang-quote' || key === 'session-ru-date-label' || key === 'session-en-date-label') el.innerHTML = value;
+      if (key === 'lang-quote' || key === 'session-ru-date-label' || key === 'session-en-date-label' || key === 'webinar-title') el.innerHTML = value;
       else if (key === 'glitch-title') {
         el.innerHTML = value;
         el.setAttribute('data-text', value.replace(/<br>/gi, ' '));
@@ -514,7 +514,7 @@ function playVideo(n) {
 // ===== TIMER =====
 function startTimer() {
   if (timerInterval) return;
-  const end = new Date('2026-06-21T23:59:59+08:00');
+  const end = new Date('2026-06-26T23:59:59+08:00');
   timerInterval = setInterval(() => {
     const now = new Date();
     const diff = Math.max(0, end - now);
@@ -558,8 +558,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const d = JSON.parse(stored);
       surveyData = d;
       if (d.lang) {
-        currentLang = d.lang;
-        applyLang(currentLang);
+        // Don't override - always start in English
+        // currentLang = d.lang;
+        // applyLang(currentLang);
       }
     } catch(e) {}
   }
