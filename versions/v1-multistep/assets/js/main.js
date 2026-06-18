@@ -1,7 +1,7 @@
 /* ===== SEAMLESS WEBINAR — JS v4 (расширенная форма + свои ответы + q7) ===== */
 const lang = {
   ru: {
-    "lang-subtitle": "Выбери язык",
+    "lang-subtitle": "Как идеи становятся движением, образами и выражением?",
     "glitch-title": "СОВРЕМЕННЫЙ ТАНЕЦ<br>И ПЕРФОРМАНС<br>В ЭПОХУ РИЛС",
     "lang-quote": "«Поднимите руку, если за последний месяц вы видели перформанс» — поднялась половина группы.<br>«А теперь те, кто смотрел stories или Reels» — встали все.",
     "lang-quote-author": "— Александр Андрияшкин",
@@ -159,7 +159,7 @@ const lang = {
     "small-text": ""
   },
   en: {
-    "lang-subtitle": "Choose your language",
+    "lang-subtitle": "How do ideas become movement, images and expression?",
     "glitch-title": "CONTEMPORARY DANCE AND PERFORMANCE<br>IN THE AGE OF REELS",
     "lang-quote": "«Raise your hand if in the last month you've seen a performance» — half the group raised their hand.<br>«Now those who watched stories or Reels» — everyone stood up.",
     "lang-quote-author": "— Alexander Andriyashkin",
