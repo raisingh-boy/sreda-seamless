@@ -479,7 +479,7 @@ function playVideo(n) {
 // ===== TIMER =====
 function startTimer() {
   if (timerInterval) return;
-  const end = new Date('2026-07-07T20:00:00+08:00');
+  const end = new Date('2026-06-21T23:59:59+08:00');
   timerInterval = setInterval(() => {
     const now = new Date();
     const diff = Math.max(0, end - now);
